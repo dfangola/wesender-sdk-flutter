@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  sms: ^0.0.1
+  wesender: ^0.0.1
 ```
 
 Then run the command `flutter packages get` on the console.
