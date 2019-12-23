@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - December 23 2019.
 
-* TODO: Describe initial release.
+*  A package for a bulk sms sending service called WeSender
+*  A function to send mensagens
