@@ -1,14 +1,42 @@
-# wesender_flutter
+# WeSender - Package for Flutter
 
-A new Flutter package.
+This is a package for a bulk sms sending service called WeSender.
 
-## Getting Started
+## Installation and Usage
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Once you're familiar with Flutter you may install this package adding `wesender` (0.0.1) to the dependencies list
+of the `pubspec.yaml` file as follow:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sms: ^0.0.1
+```
+
+Then run the command `flutter packages get` on the console.
+
+## Sending messages
+
+Add the import statement for `wesender` and create an instance of the *WeSender* class and then call the method sendMessage:
+
+```dart
+import 'package:wesender/WeSender.dart';
+
+void main() {
+  WeSenderSDK weSender = WeSenderSDK(apiKey: "YOUR_API_KEY");
+
+  weSender.sendMessage(
+        destine: ["000000000"],
+        message: "Hello World",
+        hasSpecialCharacters: true);
+}
+
+```
+## License
+[MIT License](https://opensource.org/licenses/MIT).
+
+## Author
+
+[Márcio Quimbundo](https://github.com/marcioquimbundo).

@@ -1,8 +1,8 @@
 name: wesender_flutter
-description: A new Flutter package.
+description: A new Flutter package to send messages from WeSender.
 version: 0.0.1
-author:
-homepage:
+author: Márcio Quimbundo<marcio.quimbundo@digitalfactory.co.ao>
+homepage: https://github.com/MarcioQuimbundo/
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
