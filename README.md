@@ -4,7 +4,7 @@
 
 SDK para conexão com a API em Flutter
 
-## Instalção 
+## Instalação 
 
 Uma vez estando familiarizado com o Flutter, poderá instalar este pacote adicionando `wesender` (0.0.1) para a lista de dependências
 do arquivo `pubspec.yaml` da seguinte maneira:
