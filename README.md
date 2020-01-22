@@ -1,12 +1,13 @@
-# WeSender - Package for Flutter
+# WeSender SDK para Flutter
+
 [![support](https://img.shields.io/badge/platform-flutter%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/Digital-Factory-Angola/wesender-sdk-flutter)
 
-This is a package for a bulk sms sending service called WeSender.
+SDK para conexão com a API em Flutter
 
-## Installation and Usage
+## Instalção 
 
-Once you're familiar with Flutter you may install this package adding `wesender` (0.0.1) to the dependencies list
-of the `pubspec.yaml` file as follow:
+Uma vez estando familiarizado com o Flutter, poderá instalar este pacote adicionando `wesender` (0.0.1) para a lista de dependências
+do arquivo `pubspec.yaml` da seguinte maneira:
 
 ```yaml
 dependencies:
@@ -16,11 +17,12 @@ dependencies:
   wesender: ^0.0.1
 ```
 
-Then run the command `flutter packages get` on the console.
+Em seguida, execute o comando `flutter packages get` no console.
 
-## Sending messages
+## Métodos diponiveis no momento
+### - sendMessage
 
-Add the import statement for `wesender` and create an instance of the *WeSender* class and then call the method sendMessage:
+Adicione a instrução de importação para `wesender` e crie uma instância da class *WeSender* e depois chame o método sendMessage:
 
 ```dart
 import 'package:wesender/WeSender.dart';
@@ -36,18 +38,20 @@ void main() {
 
 ```
 
-## Help this Library
 
-You can help/support by:
+## 🤔 Como contribuir
 
-- [X] Reporting a Bug;
-- [X] Making pull request;
-- [X] Write a tutorial about this;
-- [X] :heart: Staring this repository;
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-## License
-[MIT License](https://opensource.org/licenses/MIT).
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## Author
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## Autor
 
 [Márcio Quimbundo](https://github.com/marcioquimbundo).
