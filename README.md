@@ -52,10 +52,12 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
+## Autor
+
+[Márcio Quimbundo](https://github.com/marcioquimbundo).
+
 ## Contribuidores
 
 [Carlos Garcia](https://github.com/CarlCr)
 
-## Autor
 
-[Márcio Quimbundo](https://github.com/marcioquimbundo).
